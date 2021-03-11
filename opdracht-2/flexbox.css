@@ -6,10 +6,51 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    }
+}
 
 .two{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 200px;
+    list-style-type: none;
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    flex-basis: 300px;
+    flex-grow: 1 ;
+}
+
