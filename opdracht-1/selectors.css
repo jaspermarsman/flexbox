@@ -52,11 +52,12 @@ input[type="submit"]{
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
 input:hover[type="text"]{
-    border: 5px;
-    border-color: blue;
 
-}
+    border-color: brown;
+    }
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
-
+h1, h2, h3 {
+    font-family: 'Bree Serif', serif;
+}
 
